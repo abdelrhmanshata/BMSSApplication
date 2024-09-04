@@ -48,5 +48,7 @@ BMSS is an Android application designed to help users manage their finances effe
 
  
 
-https://github.com/abdelrhmanshata/BMSSApplication/assets/36518291/b27d1fa8-71ab-41ac-bcdc-e33ab83eba38
+
+https://github.com/user-attachments/assets/d860fbf9-c8f7-4269-bad5-642b009ceb22
+
 
