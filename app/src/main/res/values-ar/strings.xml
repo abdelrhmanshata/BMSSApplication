@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">BMSS App</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+    <string name="welcome">مرحباً</string>
+    <string name="email">بريد إلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="don_t_have_account_register">ليس لديك حساب؟ سجل</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="phone">الهاتف</string>
+    <string name="register">تسجيل</string>
+    <string name="i_have_account_login">لديك حساب ؟ تسجيل الدخول</string>
+
+    <string name="nameIsRequired">اسم المستخدم مطلوب !</string>
+    <string name="emailIsRequired">البريد الالكتروني مطلوب !</string>
+    <string name="please_enter_valid_email">الرجاء إدخال بريد إلكتروني صحيح !</string>
+    <string name="passwordIsRequired">كلمة المرور مطلوبة !</string>
+    <string name="minimumLength">الحد الأدنى لطول كلمة المرور 8</string>
+    <string name="age_is_required">العمر مطلوب !</string>
+    <string name="salary_is_required">الراتب مطلوب !</string>
+    <string name="additional_income_is_required">الدخل إضافي مطلوب !</string>
+
+    <string name="AlreadyRegistered">هذا الحساب مسجل بالفعل</string>
+    <string name="noConnection">لا يوجد اتصال</string>
+    <string name="successRegistered">تم التسجيل بنجاح</string>
+    <string name="successLogin">تم تسجيل الدخول بنجاح</string>
+    <string name="userNotFound">لم يتم العثور على هذا الحساب !!!</string>
+    <string name="passwordIncorrect">كلمة المرور غير صحيحة !!!</string>
+    <string name="age">العمر</string>
+    <string name="forget_password">نسيت كلمة المرور</string>
+    <string name="salary">الراتب</string>
+    <string name="do_you_have_additional_income">هل لديك دخل إضافي؟</string>
+
+    <string name="main">الرئيسية</string>
+    <string name="planning">الخطة</string>
+    <string name="goals">الأهداف</string>
+    <string name="history">السجل</string>
+    <string name="credit_card">بطاقة إئتمان</string>
+    <string name="setting">الإعدادات</string>
+    <string name="logout">تسجيل خروج</string>
+
+    <string name="number_of_plans">عدد الخطط</string>
+    <string name="pay">دفع</string>
+    <string name="save">حفظ</string>
+    <string name="update_password">تعديل كلمة السر</string>
+    <string name="add_new_debit">أضافة مديونية جديد</string>
+    <string name="creditor">الدائن</string>
+    <string name="purpose">الغاية</string>
+    <string name="paid">المدفوع</string>
+    <string name="total">المجموع</string>
+
+    <string name="add_new_goal">إضافة هدف جديد</string>
+    <string name="name_goal">اسم الهدف</string>
+    <string name="target">الهدف</string>
+    <string name="saving_goal">التوفير</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="plan">خطة</string>
+    <string name="no">لا</string>
+    <string name="yes">نعم</string>
+    <string name="cancel">إلغاء</string>
+    <string name="recover">استعادة</string>
+    <string name="no_planning">لا يوجد خطط</string>
+    <string name="circle_chart">المخطط Circle</string>
+    <string name="pie_chart">مخطط Pie</string>
+    <string name="create">إنشاء خطة</string>
+    <string name="setup">تحديد خطة</string>
+    <string name="consumption_plan">الاستهلاك</string>
+    <string name="_00_00">00/00</string>
+
+    <string name="home">البيت</string>
+    <string name="food">الطعام</string>
+    <string name="transportation">المواصلات</string>
+    <string name="education">التعليم</string>
+    <string name="entertainment">الترفيه</string>
+    <string name="health">الصحة</string>
+    <string name="invoices">الفواتير</string>
+    <string name="others">آخرى</string>
+
+    <string name="current_password">كلمة المرور الحالية</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="update">تحديث</string>
+    <string name="debits">الديون</string>
+    <string name="card_holder_name_is_required">اسم حامل البطاقة مطلوب</string>
+    <string name="card_number_is_required">رقم البطاقة مطلوب</string>
+    <string name="expiration_month_is_required">شهر انتهاء الصلاحية مطلوب</string>
+    <string name="expiration_year_is_required">سنة انتهاء الصلاحية مطلوبة</string>
+    <string name="cvv_is_required">مطلوب CVV</string>
+    <string name="number_of_plan_must_be_required">عدد الخطة مطلوبًا</string>
+    <string name="successful">تم بنجاح</string>
+    <string name="profile">الصفحة الشخصية</string>
+    <string name="password_not_match">كلمة المرور ليست متطابقة</string>
+    <string name="password_is_wrong">كلمة المرور خاطئة</string>
+    <string name="update_successfully">تم التحديث بنجاح</string>
+    <string name="are_your_sure_delete">هل أنت متأكد من الحذف؟</string>
+    <string name="delete">تم الحذف بنجاح</string>
+    <string name="update_debit">تحديث المديونية</string>
+    <string name="creditor_name_is_required">اسم الدائن مطلوب</string>
+    <string name="purpose_is_required">الغرض مطلوب</string>
+    <string name="total_is_required">المجموع مطلوب</string>
+    <string name="save_debit_successfully">تم تحديث المديونية بنجاح</string>
+    <string name="update_goal">تحديث الهدف</string>
+    <string name="saving">التوفير</string>
+    <string name="sorry_you_exceeded_salary">عذرًا! لقد تجاوزت الراتب.</string>
+    <string name="sorry_you_haven_t_free_plans">عذرًا، ليس لديك خطط متاحة.</string>
+    <string name="you_will_save">سوف توفر </string>
+    <string name="plan_created_successfully">تم إنشاء الخطة بنجاح!</string>
+    <string name="there_is_another_plan_in_current_month">هناك خطة أخرى في الشهر الحالي!</string>
+    <string name="save_plan_successfully">تم حفظ الخطة بنجاح!</string>
+    <string name="no_plan_for_current_month">لا توجد خطة للشهر الحالي</string>
+    <string name="warning_home">تحذير أستهلاك المنزل</string>
+    <string name="home_exceeded_daily_consumption">أستهلاك المنزل تجاوز الاستهلاك اليومي</string>
+    <string name="warning_food">تحذير أستهلاك الغذاء</string>
+    <string name="food_exceeded_daily_consumption">أستهلاك الغذاء تجاوز الاستهلاك اليومي</string>
+    <string name="warning_transportation">تحذير أستهلاك المواصلات</string>
+    <string name="transportation_exceeded_daily_consumption">أستهلاك المواصلات تجاوزت الاستهلاك اليومي</string>
+    <string name="warning_education">تحذير أستهلاك التعليم</string>
+    <string name="education_exceeded_daily_consumption">أستهلاك التعليم تجاوز الاستهلاك اليومي</string>
+    <string name="entertainment_exceeded_daily_consumption">أستهلاك الترفيه تجاوز الاستهلاك اليومي</string>
+    <string name="warning_entertainment">تحذير أستهلاك الترفيه</string>
+    <string name="health_exceeded_daily_consumption">أستهلاك الصحة تجاوزت الاستهلاك اليومي</string>
+    <string name="warning_health">تحذير أستهلاك الصحة</string>
+    <string name="warning_invoices">تحذير أستهلاك الفواتير</string>
+    <string name="invoices_exceeded_daily_consumption">أستهلاك الفواتير تجاوزت الاستهلاك اليومي</string>
+    <string name="others_exceeded_daily_consumption">أستهلاك الأخر تجاوز الاستهلاك اليومي</string>
+    <string name="warning_others">تحذير أستهلاك الأخر</string>
+    <string name="check_your_email">تحقق من بريدك الالكتروني :</string>
+    <string name="falid">فشل …</string>
+
+    <string name="save_goal_successfully">تم حفظ الهدف بنجاح</string>
+    <string name="goal_name_is_required">اسم الهدف مطلوب</string>
+    <string name="goal_target_is_required">الهدف الكلي مطلوب</string>
+    <string name="common_question">الأسئلة الشائعة</string>
+    <string name="congratulations_you_have_achieved_your_goal"> تهانينا لقد حققت هدفك  </string>
+    <string name="congratulations_you_have_paid_off_your_debt"> تهانينا لقد سددت ديونك  </string>
+    <string name="you_are_saving">انت مدخر </string>
+    <string name="you_do_not_have_this_amount">ليس لديك هذا المبلغ؟</string>
+
+</resources>

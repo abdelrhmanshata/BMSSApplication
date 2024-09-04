@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress ALL -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_8sdp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_4sdp"
+        app:cardElevation="@dimen/_10sdp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/goalName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:text="@string/add_new_goal"
+                    android:textSize="@dimen/_16ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/delete" />
+
+            </LinearLayout>
+
+
+            <com.mackhartley.roundedprogressbar.RoundedProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                app:rpbAnimationLength="2000"
+                app:rpbBackgroundColor="#F28969"
+                app:rpbBackgroundTextColor="@color/white"
+                app:rpbCornerRadius="10dp"
+                app:rpbProgress="0"
+                app:rpbProgressColor="@color/colorRed"
+                app:rpbProgressTextColor="@color/white"
+                app:rpbShowProgressText="true"
+                app:rpbTextPadding="12dp"
+                tools:ignore="MissingClass" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:gravity="center"
+                android:text="570/1000"
+                android:textColor="@color/colorRed"
+                android:textSize="@dimen/_16ssp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

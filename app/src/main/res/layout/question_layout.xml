@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress ALL -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_8sdp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_4sdp"
+        app:cardElevation="@dimen/_10sdp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/questionTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="What is a budget management system (BMS)?"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/more"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginHorizontal="@dimen/_5sdp"
+                    android:src="@drawable/arrow_down" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/questionAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A budget management system (BMS) is a software application designed to help individuals and organizations effectively plan, track, and manage their finances. It allows users to set budgets, track expenses, analyze spending patterns, and make informed financial decisions."
+                android:textColor="@color/colorBlackLight"
+                android:textSize="@dimen/_13ssp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

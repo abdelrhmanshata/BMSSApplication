@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "52698514638",
+    "firebase_url": "https://budget-management-system-c1241-default-rtdb.firebaseio.com",
+    "project_id": "budget-management-system-c1241",
+    "storage_bucket": "budget-management-system-c1241.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52698514638:android:a140e106e9f4d2565cbc9f",
+        "android_client_info": {
+          "package_name": "com.example.bmssapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgb46DTYCleryA2E-PU5x-anWIe7E-nkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

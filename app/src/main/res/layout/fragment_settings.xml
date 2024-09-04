@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    tools:context=".Fragment.SettingsFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/border_round_white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginBottom="@dimen/_25sdp"
+            android:background="@drawable/border_round"
+            android:padding="@dimen/_8sdp"
+            android:src="@drawable/profile" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/commonQuestion"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:background="@drawable/border_round"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/question" />
+
+            <ImageView
+                android:id="@+id/contactUs"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_90sdp"
+                android:layout_marginHorizontal="@dimen/_15sdp"
+                android:background="@drawable/border_round"
+                android:padding="@dimen/_8sdp"
+                android:src="@drawable/contactus" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
